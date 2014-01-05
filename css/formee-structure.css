@@ -184,3 +184,77 @@ Structure
 /*ie7*/
 *width: 45% !important;
 }
+
+/********************************************************************
+Bootstrap media queries
+fernando.amdrade@gmail.com
+********************************************************************/
+/*Devices with min-width:480px all grids are converted to grid-12-12*/
+@media screen and (max-width: 480px) {
+	.grid-1-12,	.grid-2-12,	.grid-3-12,	.grid-4-12,	.grid-5-12,	.grid-6-12,	.grid-7-12,	.grid-8-12,	.grid-9-12,	.grid-10-12, .grid-11-12, .grid-12-12 {	width: 97%;}
+	/* input size */
+	.formee .formee-small {
+		width: 100% !important;
+		margin: 0.8% 0 0.8%;
+	}
+	.formee .formee-medium {
+		width: 100% !important;
+		margin: 0.8% 0 0.8%;
+	}
+}
+
+/* Extra small devices xs-grid- */
+@media screen and (max-width: 767px) and (min-width: 481px) {
+	.grid-1-12,	.grid-2-12,	.grid-3-12,	.grid-4-12,	.grid-5-12,	.grid-6-12,	.grid-7-12,	.grid-8-12,	.grid-9-12,	.grid-10-12, .grid-11-12, .grid-12-12 {	width: 97%;}
+	.xs-grid-1-12 {width: 5.333%;}
+	.xs-grid-2-12 {width: 13.666%;}
+	.xs-grid-3-12 {width: 22%;}
+	.xs-grid-4-12 {width: 30.333%; }
+	.xs-grid-5-12 {width: 38.666%; }
+	.xs-grid-6-12 {width: 47%; }
+	.xs-grid-7-12 {width: 55.333%; }
+	.xs-grid-8-12 {width: 63.666%; }
+	.xs-grid-9-12 {width: 72%; }
+	.xs-grid-10-12 {width: 80.333%; }
+	.xs-grid-11-12 {width: 88.666%; }
+	.xs-grid-12-12 {width: 97%; }
+	/* input size */
+	.formee .formee-small {
+		width: 100% !important;
+		margin: 0.8% 0 0.8%;
+	}
+	.formee .formee-medium {
+		width: 100% !important;
+		margin: 0.8% 0 0.8%;
+	}		
+}
+/* Small devices sm-grid */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+	.sm-grid-1-12 {width: 5.333%;}
+	.sm-grid-2-12 {width: 13.666%;}
+	.sm-grid-3-12 {width: 22%;}
+	.sm-grid-4-12 {width: 30.333%;}
+	.sm-grid-5-12 {width: 38.666%;}
+	.sm-grid-6-12 {width: 47%;}
+	.sm-grid-7-12 {width: 55.333%;}
+	.sm-grid-8-12 {width: 63.666%;}
+	.sm-grid-9-12 {width: 72%;}
+	.sm-grid-10-12 {width: 80.333%;}
+	.sm-grid-11-12 {width: 88.666%;}
+	.sm-grid-12-12 {width: 97%;}
+}
+/* Medium devices md-grid- */
+@media screen and (min-width: 993px) {
+	.md-grid-1-12 {width: 5.333%;}
+	.md-grid-2-12 {width: 13.666%;}
+	.md-grid-3-12 {width: 22%;}
+	.md-grid-4-12 {width: 30.333%;}
+	.md-grid-5-12 {width: 38.666%;}
+	.md-grid-6-12 {width: 47%;}
+	.md-grid-7-12 {width: 55.333%;}
+	.md-grid-8-12 {width: 63.666%;}
+	.md-grid-9-12 {width: 72%;}
+	.md-grid-10-12 {width: 80.333%;}
+	.md-grid-11-12 {width: 88.666%;}
+	.md-grid-12-12 {width: 97%;}
+}
